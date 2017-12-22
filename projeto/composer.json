@@ -1,0 +1,30 @@
+{
+    "name": "erikfig/mfw",
+    "authors": [
+        {
+            "name": "Erik Figueiredo",
+            "email": "erik.figueiredo@gmail.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "path",
+            "url": "../php-do-jeito-certo-orm"
+        }
+    ],
+    "require": {
+        "illuminate/support": "^5.5",
+        "erikfig/son-orm": "@dev",
+        "pimple/pimple": "^3.2",
+        "twig/twig": "^2.4"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^3.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "ErikFig\\": "src",
+            "App\\": "app"
+        }
+    }
+}

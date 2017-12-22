@@ -1,0 +1,7 @@
+<h3>Usuário: {{ user.email }}</h3>
+
+<form action="/admin/users/edit/{{ user.id }}" method="post">
+    <input name="email" type="email" placeholder="email" value="{{ user.email }}">
+    <input name="password" type="password" placeholder="senha" value="">
+    <input type="submit" value="Salvar">
+</form>

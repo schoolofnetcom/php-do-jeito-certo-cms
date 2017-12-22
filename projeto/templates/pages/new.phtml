@@ -1,0 +1,7 @@
+<h3>Nova página</h3>
+
+<form action="/admin/pages/new" method="post">
+    <input name="title" type="text" placeholder="title" value="{{ page.title }}">
+    <textarea name="body">{{ page.body }}</textarea>
+    <input type="submit" value="Salvar">
+</form>
